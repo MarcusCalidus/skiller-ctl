@@ -36,10 +36,16 @@ ToDo
 * event daemon to handle special gaming keys
 * move this code into kernel to avoid short disconnects of the keyboard
 
-Build
+Build - the original way
 -----
 * Install [libusb-1.0](http://www.libusb.org)
 * Execute "make"
+
+Build - Ubuntu or other Debian derivates
+-----
+* Install libusb headers: `sudo apt install libusb-1.0-0-dev`
+* Install pkg-config tool: `sudo apt install pkg-config`
+* Execute "make": `make`
 
 
 Usage
