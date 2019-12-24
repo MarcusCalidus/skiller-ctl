@@ -46,7 +46,7 @@ Build - Ubuntu or other Debian derivates
 * Install libusb headers: `sudo apt install libusb-1.0-0-dev`
 * Install pkg-config tool: `sudo apt install pkg-config`
 * Execute "make": `make`
-
+* Install skiller-ctl executable: `sudo make install`
 
 Usage
 -----
